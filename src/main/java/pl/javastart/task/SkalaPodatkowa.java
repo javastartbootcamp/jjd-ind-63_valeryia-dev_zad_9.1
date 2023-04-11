@@ -25,7 +25,7 @@ public class SkalaPodatkowa extends FormaOpodatkowania {
             setProcentPodatku(PROCENT_1);
         } else {
             setProcentPodatku(PROCENT_2);
-            return super.wyliczPodatek(przychody);
         }
+            return super.wyliczPodatek(przychody);
     }
 }
